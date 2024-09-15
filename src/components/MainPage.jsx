@@ -9,7 +9,7 @@ const MainPage = () => {
           <div className="font-lexend font-semibold text-[2.8rem] w-[70%] leading-[3.18rem]">
             Find The Place To Bring Your Dreams To Life.
           </div>
-          <div className="text-customGray mt-8 w-[78%]">
+          <div className="text-customGray mt-4 w-[78%]">
             Everything you need about finding your place to live will be here,
             where it will be easier for you.
           </div>
