@@ -1,6 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Topbar() {
+  const navigate =useNavigate();
+  const signInClick = () => {
+    navigate('/signIn');
+  };  
   return (
     <nav className="px-12 py-[1.2rem] flex justify-between items-center shadow">
       <div className="font-semibold text-[1.1rem] flex gap-3 items-center">
@@ -29,7 +34,8 @@ function Topbar() {
         <button className="text-[#047857] text-[0.95rem] font-semibold hover:brightness-150 transition-all duration-300">
           Property
         </button>
-        <button className="text-[#047857] text-[0.95rem] font-semibold hover:brightness-150 transition-all duration-300">
+        <button className="text-[#047857] text-[0.95rem] font-semibold hover:brightness-150 transition-all duration-300"
+        onClick={signInClick}>
           Sign In
         </button>
       </div>
