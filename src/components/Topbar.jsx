@@ -13,7 +13,7 @@ function Topbar() {
           width="33"
           height="33"
           viewBox="0 0 36 36"
-          fill="none"
+          fill="none"gi
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
