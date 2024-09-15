@@ -32,6 +32,9 @@ function Topbar() {
           About Us
         </button>
         <button className="text-[#047857] text-[0.95rem] font-semibold hover:brightness-150 transition-all duration-300">
+          Article
+        </button>
+        <button className="text-[#047857] text-[0.95rem] font-semibold hover:brightness-150 transition-all duration-300">
           Property
         </button>
         <button className="text-[#047857] text-[0.95rem] font-semibold hover:brightness-150 transition-all duration-300"
