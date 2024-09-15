@@ -18,74 +18,46 @@ const Label = styled(Paper)(({ theme }) => ({
 }));
 
 const itemData = [
-    {
-        img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
-        title: 'Fern ',
-      },
-      {
-        img: 'https://images.unsplash.com/photo-1627308595229-7830a5c91f9f',
-        title: 'Snacks',
-      },
-      {
-        img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
-        title: 'Mushrooms',
-      },
-      {
-        img: 'https://images.unsplash.com/photo-1529655683826-aba9b3e77383',
-        title: 'Tower',
-      },
-      {
-        img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
-        title: 'Sea star',
-      },
-      {
-        img: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
-        title: 'Honey',
-      },
-      {
-        img: 'https://images.unsplash.com/photo-1516802273409-68526ee1bdd6',
-        title: 'Basketball',
-      },
-      {
-        img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
-        title: 'Breakfast',
-      },
-      {
-        img: 'https://images.unsplash.com/photo-1627328715728-7bcc1b5db87d',
-        title: 'Tree',
-      },
-      {
-        img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
-        title: 'Burger',
-      },
-      {
-        img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
-        title: 'Camera',
-      },
-      {
-        img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
-        title: 'Coffee',
-      },
-      {
-        img: 'https://images.unsplash.com/photo-1627000086207-76eabf23aa2e',
-        title: 'Camping Car',
-      },
-      {
-        img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
-        title: 'Hats',
-      },
-      {
-        img: 'https://images.unsplash.com/photo-1567306301408-9b74779a11af',
-        title: 'Tomato basil',
-      },
-      {
-        img: 'https://images.unsplash.com/photo-1627328561499-a3584d4ee4f7',
-        title: 'Mountain',
-      },
-      {
-        img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-        title: 'Bike',
-      },
+  {
+    img: "https://media.istockphoto.com/id/1778738751/photo/summer-is-over-in-the-garden.jpg?s=2048x2048&w=is&k=20&c=wBTIo_R9VEfKJzlRj7xnCVF2e8Tj_oIDNo5hpzveu3o=",
+    title: "House ",
+  },
+  {
+    img: "https://media.istockphoto.com/id/1755445620/photo/row-of-single-story-homes.jpg?s=2048x2048&w=is&k=20&c=2L5Np9OC-LSjd5aP0GiqAOBaJ7c_J4HbGWkv7_4DMg8=",
+    title: "Villa",
+  },
+  {
+    img: "https://media.istockphoto.com/id/2155879397/photo/house-in-a-charming-neighborhood-with-stunning-sidewalk-landscaping.jpg?s=2048x2048&w=is&k=20&c=kiXfFSGT_7RN2w3aTofRz5FioHrOfkTeTnOwCxLi-F0=",
+    title: "House",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Hut",
+  },
+  {
+    img: "https://media.istockphoto.com/id/2149088667/photo/3d-rendering-of-modern-house-in-luxurious-style-in-night.jpg?s=2048x2048&w=is&k=20&c=riZJg2BQtyuPHM3UAc_t_FSwVBpGFoMI1UPlDqLe294=",
+    title: "Apartment",
+  },
+  {
+    img: "https://plus.unsplash.com/premium_photo-1661915661139-5b6a4e4a6fcc?q=80&w=2534&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "House",
+  },
+  {
+    img: "https://media.istockphoto.com/id/1755445620/photo/row-of-single-story-homes.jpg?s=2048x2048&w=is&k=20&c=2L5Np9OC-LSjd5aP0GiqAOBaJ7c_J4HbGWkv7_4DMg8=",
+    title: "Villa",
+  },
+  {
+    img: "https://media.istockphoto.com/id/1778738751/photo/summer-is-over-in-the-garden.jpg?s=2048x2048&w=is&k=20&c=wBTIo_R9VEfKJzlRj7xnCVF2e8Tj_oIDNo5hpzveu3o=",
+    title: "House ",
+  },
+  {
+    img: "https://media.istockphoto.com/id/2149088667/photo/3d-rendering-of-modern-house-in-luxurious-style-in-night.jpg?s=2048x2048&w=is&k=20&c=riZJg2BQtyuPHM3UAc_t_FSwVBpGFoMI1UPlDqLe294=",
+    title: "Apartment",
+  },
+  {
+    img: "https://media.istockphoto.com/id/1597660474/photo/birds-eye-view-of-home.jpg?s=2048x2048&w=is&k=20&c=tH_tuVUuBe3CBv03Z6mmkRgvIeD-rFhSDY8Yr9MOjjo=",
+    title: "House",
+  },
 ];
 
 function ImageMasonry() {
@@ -103,93 +75,110 @@ function ImageMasonry() {
   };
 
   return (
-    <Box sx={{ position: "relative", width: "100%", overflow: "hidden" }}>
-      <div className="font-lexend font-semibold text-[2.8rem] w-[40%] leading-[3.18rem]">Featured Homestay</div>
-      <Box
-        ref={carouselRef}
-        sx={{
-          display: "flex",
-          overflowX: "auto",
-          scrollBehavior: "smooth",
-          gap: 2,
-          "&::-webkit-scrollbar": { display: "none" }, // Hide scrollbar
-        }}
-      >
-        {itemData.map((item, index) => (
-          <Box key={index} sx={{ minWidth: 300 }}>
-            <Label>{item.title}</Label>
-            <img
-              srcSet={`${item.img}`}
-              src={`${item.img}?w=162&auto=format`}
-              alt={item.title}
-              loading="lazy"
-              style={{
-                borderBottomLeftRadius: 4,
-                borderBottomRightRadius: 4,
-                display: "block",
-                width: "100%",
-              }}
-            />
-          </Box>
-        ))}
+    <>
+      <div className="font-lexend text-[#F59E0B] font-medium mb-2 text-[1rem] leading-[1rem] flex gap-2 items-center">
+        <svg
+          width="32"
+          height="1"
+          viewBox="0 0 32 1"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect width="32" height="1" fill="#F59E0B" />
+        </svg>
+        Our Recommendation
+      </div>
+      <Box sx={{ position: "relative", width: "100%", overflow: "hidden" }}>
+        <div className="font-lexend font-semibold text-[2.8rem] w-[40%] leading-[3rem]">
+          Featured Homestay
+        </div>
+        <Box
+          ref={carouselRef}
+          sx={{
+            display: "flex",
+            overflowX: "auto",
+            scrollBehavior: "smooth",
+            gap: 2,
+            "&::-webkit-scrollbar": { display: "none" }, // Hide scrollbar
+          }}
+        >
+          {itemData.map((item, index) => (
+            <Box key={index} sx={{ minWidth: 500}}>
+              <Label sx={{fontWeight: 600, marginTop: 2}}>{item.title}</Label>
+              <img
+                srcSet={`${item.img}`}
+                src={`${item.img}?w=162&auto=format`}
+                alt={item.title}
+                loading="lazy"
+                style={{
+                  borderBottomLeftRadius: 4,
+                  borderBottomRightRadius: 4,
+                  display: "block",
+                  width: "100%",
+                }}
+              />
+            </Box>
+          ))}
+        </Box>
+
+        {/* Left and Right Scroll Buttons */}
+        <Button
+          onClick={() => scroll(-300)}
+          sx={{
+            position: "absolute",
+            top: "50%",
+            left: 10,
+            transform: "translateY(-50%)",
+            zIndex: 1,
+            backgroundColor: "#fff",
+            "&:hover": { backgroundColor: "#f0f0f0" },
+            marginTop: 4
+          }}
+        >
+          <ArrowBackIosIcon />
+        </Button>
+
+        <Button
+          onClick={() => scroll(300)}
+          sx={{
+            position: "absolute",
+            top: "50%",
+            right: 10,
+            transform: "translateY(-50%)",
+            zIndex: 1,
+            backgroundColor: "#fff",
+            "&:hover": { backgroundColor: "#f0f0f0" },
+            marginTop: 4
+          }}
+        >
+          <ArrowForwardIosIcon />
+        </Button>
       </Box>
-
-      {/* Left and Right Scroll Buttons */}
-      <Button
-        onClick={() => scroll(-300)}
-        sx={{
-          position: "absolute",
-          top: "50%",
-          left: 10,
-          transform: "translateY(-50%)",
-          zIndex: 1,
-          backgroundColor: "#fff",
-          "&:hover": { backgroundColor: "#f0f0f0" },
-        }}
-      >
-        <ArrowBackIosIcon />
-      </Button>
-
-      <Button
-        onClick={() => scroll(300)}
-        sx={{
-          position: "absolute",
-          top: "50%",
-          right: 10,
-          transform: "translateY(-50%)",
-          zIndex: 1,
-          backgroundColor: "#fff",
-          "&:hover": { backgroundColor: "#f0f0f0" },
-        }}
-      >
-        <ArrowForwardIosIcon />
-      </Button>
-    </Box>
+    </>
   );
 }
 
 export default function ItemList() {
   return (
-   
-          <Box
-            sx={{
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              width: '100%',
-              minHeight: '100vh',
-              p: 2,
-            }}
-          >
-            <Box
-              sx={{
-                width: '90%',
-                p: 2, 
-                boxSizing: 'border-box',
-              }}
-            >
-              <ImageMasonry />
-            </Box>
-          </Box>
+    <Box
+      sx={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        width: "100%",
+        margin: "5rem 0",
+        p: 2,
+      }}
+    >
+      <Box
+        sx={{
+          width: "90%",
+          p: 2,
+          boxSizing: "border-box",
+        }}
+      >
+        <ImageMasonry />
+      </Box>
+    </Box>
   );
 }

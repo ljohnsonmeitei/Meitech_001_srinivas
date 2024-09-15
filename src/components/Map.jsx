@@ -8,10 +8,10 @@ import {
 } from "@react-google-maps/api";
 
 const containerStyle = {
-  width: "85%",
-  height: "400px",
+  width: "88%",
+  height: "500px",
   margin: "auto",
-  border: "1px solid #047857",
+  // border: "1px solid #047857",
   borderRadius: "10px"
 };
 
@@ -49,8 +49,8 @@ const Map = () => {
       googleMapsApiKey="AIzaSyADd3g4yzANsvznP3Ml_DFegoTTiqujj0w" // Replace with your API key
       libraries={["places"]} // Make sure to include 'places' library
     >
-      <div>
-        <div className="flex items-center bg-white rounded-full shadow-md border border-gray-300 max-w-md m-auto mb-4">
+      <div className="mt-8">
+        <div className="flex items-center bg-white rounded-full shadow-md border border-gray-300 max-w-[24rem] m-auto mb-5">
           <div className="pl-4 text-orange-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +74,7 @@ const Map = () => {
             <input
               type="text"
               placeholder="Search for the location"
-              className="flex-grow px-5 py-4 text-gray-600 rounded-full focus:outline-none h-[46px]"
+              className="px-5 py-4 text-gray-600 rounded-full focus:outline-none h-[46px] w-full"
               // style={{
               //   boxSizing: "border-box",
               //   border: "1px solid transparent",
